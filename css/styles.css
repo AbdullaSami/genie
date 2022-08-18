@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Montserrat";
+text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* HEADINGS */
+.big-headings {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.section-headings {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+/* HEADINGS */
+.container-fluid {
+  padding: 7% 15% 7%;
+  /* padding-top: 10%; */
+}
+
+/* sections */
+.colored-section {
+background-image: linear-gradient(to bottom right, #0c9ec9, #ae82f2);
+  color: white;
+  width: 100%;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* sections */
+/* title image */
+
+.title-image {
+  width:49.2%;
+  position: absolute;
+  top: 41%;
+  z-index:0;
+
+}
+
+#title .container-fluid {
+  padding: 10% 5%;
+  padding-bottom: 10%;
+  text-align: left ;
+
+}
+
+/* navigation bar  */
+#logo-g{
+  width: 7rem;
+  height: auto;
+}
+.navbar {
+  /* padding-bottom: 4rem ; */
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 13%;
+  padding: 1% 5%;
+  text-align: left ;
+  z-index: 999;
+}
+
+.nav-item {
+  padding: 0 18px ;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  color: white
+}
+
+/* scond part */
+.goals{
+  font-family: "Montserrat" ;
+  padding: .5rem ;
+
+}
+.goals div {
+padding: 4.5rem ;
+}
+.goals h3 {
+font-weight: bold;
+  font-size: 1.5rem ;
+}
+.goals p{
+  margin: auto;
+  color: #8f8f8f;
+  width: 15rem ;
+
+}
+#features{
+  position: relative;
+  z-index: 1;
+}
+#icons {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+#icons:hover{
+  color: #ff4c68 ;
+}
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+
+}
+
+.testimonial-image {
+width: 10%;
+border-radius: 100% ;
+margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+width: 15%;
+padding: 20px 20px 50px;
+}
+
+/* Servies */
+#Servies{
+padding:	6.25rem;
+
+}
+.Servies-column {
+  padding: 1.5rem 1rem;
+}
+
+/* cta */
+#ficon {
+  padding: 5px;
+}
+
+#cta h3{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top:5% ;
+
+}
+
+/* footer */
+.sicon {
+  padding: 0.75rem;
+}
+#footer{
+  padding: 3% 7%;
+  background-color: #fff;
+}
+
+/* footer */
+@media (max-width: 1028px){
+
+.carousel-inner h2{
+font-size:2.25rem;
+}
+
+#title{
+  text-align: center;
+}
+.navbar-collapse{
+background-image: linear-gradient(to top right, #0c9ec9, #ae82f2);
+text-align:center;
+display: grid;
+position: relative;
+width: 100%;
+}
+
+.title-image {
+  width:95%;
+  position: absolute;
+  top: 18rem;
+  z-index:0;
+
+}
+
+#title .container-fluid {
+  padding: 10% 5%;
+  padding-bottom: 22rem;
+  width: 100%;
+  text-align: left ;
+
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+padding: 1% 5%;
+  text-align: left ;
+  z-index: 999;
+}
+
+}
